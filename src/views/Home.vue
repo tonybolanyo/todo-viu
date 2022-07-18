@@ -38,7 +38,7 @@ export default {
       const taskToggle = await this.fetchTask(id)
       const updatedTask = { ...taskToggle, important: !taskToggle.important }
 
-      const res = await fetch(`http://localhost:3000/task/${id}`, {
+      const res = await fetch(`http://localhost:3000/tasks/${id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json'
@@ -63,7 +63,7 @@ export default {
       return data
     },
     async addTask (task) {
-      const res = await fetch('http://localhost:3000', {
+      const res = await fetch('http://localhost:3000/tasks', {
         method: 'POST',
         headers: {
           'Content-type': 'application/json'
