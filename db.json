@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Cita médica",
+      "day": "2 agosto",
+      "important": true
+    },
+    {
+      "id": 2,
+      "text": "Reunión con cliente",
+      "day": "21 julio",
+      "important": true
+    },
+    {
+      "id": 3,
+      "text": "Hacer la compra",
+      "day": "22 julio",
+      "important": false
+    }
+  ]
+}
